@@ -238,10 +238,25 @@ DATABASE_URL=postgresql://postgres:YOURPASSWORD@localhost:5432/backtestiq
 Start the backend server:
 
 ```bash
+cd backend
+venv\Scripts\activate
 uvicorn main:app --reload
 ```
 
 Backend runs at: `http://127.0.0.1:8000`
+
+
+---
+
+Start the frontend server:
+
+```bash
+cd frontend
+npm install
+npm start
+```
+
+Frontend runs at: `http://localhost:3000`
 
 ---
 
