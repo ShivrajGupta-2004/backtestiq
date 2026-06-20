@@ -239,8 +239,7 @@ Start the backend server:
 
 ```bash
 cd backend
-venv\Scripts\activate
-uvicorn main:app --reload
+python -m uvicorn main:app --reload
 ```
 
 Backend runs at: `http://127.0.0.1:8000`
